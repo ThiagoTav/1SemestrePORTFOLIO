@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    background-image: url(../img/code-g08a471705_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tema {
+    display: flex;
+    align-items: center;
+}
+
+#titulo {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#Photo {
+    cursor: pointer;
+    border-radius: 44%;
+}
+
+#a1 {
+    text-decoration: none;
+    color: white;
+}
+
+#nav {
+    padding: 10px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(102, 102, 102, 0.989);
+    padding: 10px;
+    align-items: center;
+    transition: top 0.3s;
+    
+}
+
+header li {
+    transition: 0.3s;
+    
+}
+
+header li:hover {
+    font-size: large;
+    cursor: pointer;
+    
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    color: white;
+    
+}
+
+main {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.719);
+}
+
+#Seja {
+    text-align: center;
+    padding: 15px;
+    padding-top: 15%;
+}
+
+#Seja p {
+    font-size: 30px;
+}
+
+#Seja h1 {
+    font-size: 50px;
+}
+
+#Início h2 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20%;
+
+}
+
+#Início h3 {
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+h3 {
+    padding-top: 2%;
+}
+footer {
+    padding: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.719);
+}
+
+#footer-text {
+    text-align: center;
+}
+
+#social-media figure img {
+    margin-bottom: 10px;
+
+}
+
+#foto {
+    border-radius: 46%;
+    display: flex;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    margin: 0 100px;
+}
+  
+  .image-container figure {
+    margin-right: 20px;
+  }
+  
+  .text-container {
+    flex: 1;
+    padding-top: 40px;
+  }
+
+  #textscrum {
+    background-color: rgba(102, 102, 102, 0.989);
+    border-radius: 10px;
+    width: 80%;
+    padding: 50px;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+  }
+
+  #container01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+p {
+    text-align: justify;
+}
+
+.bolinha {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gray;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .selecionada {
+    background-color: black;
+  }
+
+  #textoDiv {
+    opacity: 0;
+    transition: opacity 1.5s;
+  }
+  #textoDiv.visible {
+    opacity: 1;
+  }
+
+  /*centralizar a img*/
+   #imagens {
+      text-align: center;
+    }
+
+    #botoes {
+      display: flex;
+      justify-content: center;
+    }
+
+    .bolinha {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: rgb(255, 254, 254);
+      margin: 0 5px;
+    }
+
+    .bolinha.selecionada {
+        background-color: gray;
+      }
+
+      #receita {
+        display: flex;
+        justify-content: center;
+        max-width: 1000px;
+        width: 80%;
+        flex-direction: column;
+        margin: 0 130px;
+      }
+
+      #semantico {
+        padding: 10%;
+      }

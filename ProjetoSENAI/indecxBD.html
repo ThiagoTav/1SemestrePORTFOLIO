@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos ADS Senai</title>
+    <link rel="stylesheet" type="text/css" href="./CSS/styleBD.css">
+</head>
+<body>
+    <header id="topo">
+        <nav id="nav">
+            <div id="tema">
+                <figure><img onclick="scrollToTop()" id="Photo" src="./img/Minha foto.jpeg" width="100" alt="" id="foto"></figure>
+                <h1 id="titulo" onclick="scrollToTop()">Projetos ADS Senai</h1>
+            </div>
+            <ul>
+                <li><a id="a1" href="./indecxLIN.html">Linguagem de Programação</a></li>
+                <li><a id="a1" href="./indecxAUT.html">Automação Industrial</a></li>
+                <li><a id="a1" href="./indecxRED.html">Redes de Computadores</a></li>
+                <li><a id="a1" href="./indecx.html">Home</a></li>
+                <li><a id="a1" href="./indecxCD.html">Ciência de Dados</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="Início">
+            <section id="Seja" class="fade-in">
+                <div id="textoDiv">
+               <h1>Banco de Dados </h1>
+                </div>
+            </section>
+            <h2 id="cm" >Banco de Dados Relacionais</h2>
+            <div id="container01">
+                <div id="textscrum">
+            <p>Um banco de dados relacional é um tipo de banco de dados que organiza e armazena dados em tabelas relacionadas entre si. Ele utiliza o modelo relacional, que é baseado na teoria dos conjuntos e na álgebra relacional. Esse modelo define a estrutura, as regras e as operações para manipulação dos dados.
+            <br><br>
+            Em um banco de dados relacional, os dados são organizados em tabelas, que consistem em linhas e colunas. Cada tabela representa uma entidade ou um conjunto de entidades relacionadas no mundo real. As colunas representam os atributos dessas entidades, enquanto as linhas contêm os valores dos atributos para cada instância.
+            <br><br>   
+            As tabelas em um banco de dados relacional têm chaves primárias que identificam de forma exclusiva cada registro. Além disso, podem ser estabelecidas relações entre as tabelas por meio de chaves estrangeiras. Essas chaves estrangeiras permitem que os dados relacionados sejam conectados entre diferentes tabelas.
+            <br><br>   
+            A linguagem SQL (Structured Query Language) é amplamente utilizada para acessar, manipular e consultar bancos de dados relacionais. Com o SQL, é possível criar, modificar e consultar dados nas tabelas, além de realizar operações de junção, filtragem e ordenação.
+            <br><br>    
+            Os bancos de dados relacionais são conhecidos por sua estrutura rígida e consistência dos dados. Eles são adequados para aplicações que têm relações complexas entre os dados e exigem integridade, confiabilidade e consistência dos dados armazenados. Exemplos populares de sistemas de gerenciamento de banco de dados relacionais (SGBDR) incluem o MySQL, Oracle, Microsoft SQL Server e PostgreSQL.
+            </p>
+                </div>
+              </div>
+              </div>
+              </div>
+              <h3 id="rob" >Arquitetura de Três-Esquemas</h3>
+              <div id="container01">
+                <div id="textscrum">
+              <p>A arquitetura de três-esquemas, também conhecida como arquitetura ANSI/SPARC, é um modelo conceitual para a organização de bancos de dados. Essa arquitetura foi proposta pelo Grupo de Estudo de Arquitetura de Sistemas de Computadores (ANSI/SPARC) como um padrão para projetar sistemas de banco de dados. A arquitetura de três-esquemas divide a estrutura de um banco de dados em três níveis distintos:
+                <br><br>
+                <li>Nível Externo (Visão do Usuário): Este é o nível mais alto da arquitetura, onde os usuários interagem diretamente com o banco de dados. Nesse nível, são definidas as visões dos usuários, que representam subconjuntos específicos dos dados do banco de dados. Cada usuário pode ter sua própria visão personalizada dos dados, que atende às suas necessidades específicas. A visão do usuário é definida por consultas em linguagens como SQL.</li>
+                <br><br>
+                <li>Nível Conceitual (Esquema Conceitual): O nível conceitual representa a visão global e abstrata do banco de dados. Ele descreve a estrutura e os relacionamentos dos dados de forma independente das aplicações específicas. Nesse nível, é definido o esquema conceitual, que é uma representação lógica unificada de todo o banco de dados. O esquema conceitual é geralmente descrito usando uma linguagem de modelagem de dados, como o modelo entidade-relacionamento (ER).</li>
+                <br><br>
+                <li>Nível Interno (Esquema Físico): O nível interno representa a implementação física dos dados no banco de dados. Ele descreve como os dados são armazenados, organizados e acessados no nível mais baixo. Nesse nível, é definido o esquema interno, que especifica os detalhes técnicos, como a estrutura de armazenamento, os índices, os métodos de acesso e a representação física dos dados. Essa camada está intimamente ligada ao sistema de gerenciamento de banco de dados (SGBD) específico que está sendo utilizado.</li>
+                <br><br>
+                A arquitetura de três-esquemas permite a separação clara entre a visão dos usuários, a estrutura conceitual e a implementação física dos dados. Isso oferece flexibilidade, modularidade e independência de dados, permitindo que as alterações na estrutura física não afetem as visões dos usuários e as aplicações que utilizam o banco de dados. Além disso, facilita a manutenção, a evolução e a extensibilidade do sistema de banco de dados ao longo do tempo.
+
+              </p>
+                </div>
+              </div>
+
+              <h3 id="rob">Modelo Entidade Relacionamento (ER)</h3>
+            <div id="container01">
+                <div id="textscrum">
+              <p> É um modelo conceitual usado para representar e descrever a estrutura lógica de um banco de dados. Ele foi proposto por Peter Chen em 1976 e é amplamente utilizado na área de bancos de dados. O modelo ER é baseado em entidades, relacionamentos e atributos. Aqui estão os principais componentes do modelo:
+                <br><br>
+                <li>Entidade: Uma entidade representa um objeto ou conceito do mundo real, como uma pessoa, um lugar ou um objeto. Em um diagrama ER, uma entidade é representada por um retângulo e seu nome é colocado dentro dele. Cada entidade possui atributos que descrevem características específicas da entidade.</li>
+                <br><br>
+                <li>Atributo: Um atributo é uma propriedade ou característica de uma entidade. Por exemplo, uma entidade "Pessoa" pode ter atributos como "nome", "idade" e "endereço". Os atributos são representados por elipses conectadas à entidade.</li>
+                <br><br>
+                <li>Relacionamento: Um relacionamento descreve a associação entre duas ou mais entidades. Pode representar uma ligação, uma interação ou uma dependência entre as entidades. Em um diagrama ER, um relacionamento é representado por um losango conectado às entidades envolvidas. O relacionamento pode ter atributos próprios, chamados atributos de relacionamento.</li>
+                <br><br>
+                <li>Cardinalidade: A cardinalidade define a quantidade de instâncias de uma entidade que podem estar relacionadas a uma instância de outra entidade. A cardinalidade pode ser um-para-um (1:1), um-para-muitos (1:N) ou muitos-para-muitos (N:N). Ela é indicada por meio de notações, como linhas ou símbolos, nos diagramas ER.</li>
+                <br><br>
+                Os diagramas ER são usados para visualizar e comunicar a estrutura do banco de dados de forma clara e concisa. Eles podem ser usados para projetar e modelar um banco de dados, identificando as entidades, seus atributos e relacionamentos, e ajudando na criação de um esquema conceitual.
+                <br><br>
+                Além disso, o modelo ER serve como base para a criação de esquemas lógicos e físicos do banco de dados, bem como para a implementação do sistema de gerenciamento de banco de dados (SGBD) específico. A partir do modelo ER, é possível derivar tabelas, chaves primárias, chaves estrangeiras e outras estruturas necessárias para a implementação do banco de dados.
+              </p>
+                </div>
+            </div>
+                <h3 id="rob">Modelo Físico</h3>
+                <div id="container01">
+                    <div id="textscrum">
+                <p>SGBD - Sistema de Gerenciamento de Banco de Dados</p>
+              <br>
+                    <p>Sistema de Gerenciamento de Banco de Dados (SGBD) é um software projetado para gerenciar e controlar o armazenamento, organização, recuperação, segurança e integridade dos dados em um banco de dados. Um SGBD oferece uma interface entre os usuários ou aplicativos e os dados armazenados, permitindo que os usuários criem, acessem e manipulem os dados de forma eficiente e segura. Os SGBDs fornecem uma série de recursos e funcionalidades que facilitam o gerenciamento de bancos de dados. Aqui estão alguns componentes e funcionalidades comuns encontrados nos SGBDs:
+                    <br><br>    
+                    <li>Linguagem de Consulta: Os SGBDs geralmente suportam uma linguagem de consulta, como a SQL (Structured Query Language), que permite que os usuários escrevam consultas para recuperar, atualizar e manipular dados no banco de dados.</li>
+                    <br><br>    
+                    <li>Controle de Acesso:</li> Os SGBDs permitem definir e controlar as permissões de acesso aos dados. Isso inclui a definição de privilégios para usuários e a implementação de mecanismos de autenticação e autorização para proteger os dados contra acesso não autorizado.
+                    <br><br>   
+                    <li>Gerenciamento de Transações:</li> Os SGBDs fornecem recursos para gerenciar transações, que são unidades lógicas de trabalho que envolvem operações de leitura e escrita no banco de dados. Eles garantem que as transações sejam executadas de forma consistente e durável, seguindo o princípio ACID (Atomicidade, Consistência, Isolamento e Durabilidade).
+                    <br><br>    
+                    <li>Concorrência e Controle de Concorrência:</li> Os SGBDs lidam com situações em que várias transações estão sendo executadas simultaneamente. Eles implementam mecanismos de controle de concorrência para garantir a consistência dos dados e evitar problemas como leituras sujas, escritas perdidas e conflitos de atualização.
+                    <br><br>    
+                    <li>Recuperação de Falhas:</li> Os SGBDs são projetados para lidar com falhas do sistema e garantir a recuperação dos dados em caso de panes ou interrupções. Eles utilizam técnicas como log de transações e backups para garantir a integridade e a disponibilidade dos dados.
+                    <br><br>   
+                    Existem diversos tipos de SGBDs disponíveis, incluindo SGBDs relacionais, como MySQL, Oracle e PostgreSQL, e SGBDs não relacionais (NoSQL), como MongoDB e Cassandra, cada um com suas características e funcionalidades específicas. A escolha do SGBD adequado depende dos requisitos e necessidades do projeto ou aplicação em questão.</p>
+                    <br><br> <br><br> 
+                    </div>
+                </div>
+
+                    <p>Comandos DDL - Data Definition Language</p>
+                    <div id="container01">
+                        <div id="textscrum">
+                    <br>
+                    <p>DDL (Data Definition Language) é uma parte da linguagem SQL (Structured Query Language) que permite criar, modificar e excluir objetos de banco de dados. Aqui estão alguns dos comandos DDL mais comuns usados no PostgreSQL:
+                    <br><br> 
+                    <li>CREATE TABLE: Cria uma nova tabela no banco de dados. É usado para definir o nome da tabela, os nomes e tipos das colunas, restrições de integridade e outras propriedades da tabela.</li>
+                    <br><br> 
+                    <li>ALTER TABLE: Modifica uma tabela existente no banco de dados. Pode ser usado para adicionar, modificar ou excluir colunas, renomear a tabela, definir restrições e realizar outras alterações na estrutura da tabela.</li>
+                    <br><br> 
+                    <li>DROP TABLE: Exclui uma tabela existente no banco de dados juntamente com todos os dados e objetos associados a ela.</li>
+                    </p>
+                    <br><br><br>
+                        </div>
+                    </div>
+
+                    <p>Comandos DML - Data Manipulation Language</p>
+                    <div id="container01">
+                        <div id="textscrum">
+                    <br>
+                    <p>DML (Data Manipulation Language) é uma parte da linguagem SQL (Structured Query Language) que permite manipular os dados em um banco de dados. Os comandos DML são usados para recuperar, inserir, atualizar e excluir dados em tabelas. Aqui estão alguns dos comandos DML mais comuns usados no PostgreSQL:
+                        <br><br>
+                    <li>SELECT: Recupera dados de uma ou mais tabelas com base em uma consulta específica. É usado para selecionar colunas específicas, aplicar filtros, realizar junções de tabelas e executar operações de agregação.</li>
+                    <br><br>
+                    <li>INSERT: Insere novos registros em uma tabela. É usado para especificar os valores a serem inseridos em cada coluna da tabela.</li>
+                    <br><br>
+                    <li>UPDATE: Atualiza os valores de colunas existentes em registros de uma tabela. É usado para modificar os valores das colunas com base em uma condição específica.</li>
+                    <br><br>
+                    <li>DELETE: Exclui registros de uma tabela com base em uma condição específica.</li>
+                    <br><br><br>
+                    </p>
+                        </div>
+                    </div>
+                    
+                    <p>Comandos DQL - Data Query Language</p>
+                    <div id="container01">
+                        <div id="textscrum">
+                    <br>
+                    <p><li>SELECT</li>
+                    <li>Operadores SQL: AND, OR e NOT</li>
+                    <li>FUNÇÕES SQL: Funções de agregação, Funções Matemáticas, Funções Trigonométricas.</li>
+                    <li>ORDER BY</li>
+                    <li>JOIN</li>
+                    <li>GROUP BY</li>
+                    <li>UNION, INTERSECT e EXCEPT</li>
+                    <li>ALIASES</li>
+                    </p>
+                    <br><br><br>
+                        </div>
+                    </div>
+                    <div id="container01">
+                        <div id="textscrum">
+                    <p>DTL (Data Transaction Language) é uma parte da linguagem SQL (Structured Query Language) que permite controlar as transações em um banco de dados. Os comandos DTL são usados para gerenciar as transações, que são sequências de operações que devem ser executadas como uma unidade indivisível. Aqui estão os principais comandos DTL no PostgreSQL:
+
+                        <li>BEGIN</li>
+                        <li>COMMIT</li>
+                        <li>ROLLBACK</li>
+                    </p>
+                    <br><br><br>
+                        </div>
+                    </div>
+                      <div id="container01">
+                            <div id="textscrum">
+                        
+                    <p>DCL (Data Control Language) é uma parte da linguagem SQL (Structured Query Language) que permite controlar os privilégios de acesso e segurança em um banco de dados. Os comandos DCL são usados para conceder permissões, revogar permissões e controlar o acesso aos objetos do banco de dados. Aqui estão os principais comandos DCL no PostgreSQL:
+                        <li>GRANT</li>
+                        <li>REVOKE</li>
+                        <li>DENY</li>
+
+                    </p>
+
+
+
+                </p>
+                </div>
+                </div>
+                <h3 id="rob">Normalização</h3>
+                <div id="container01">
+                    <div id="textscrum">
+                <p>Primeira Forma Normal - 1FN</p>
+                <br>
+                <p>A Primeira Forma Normal (1FN) é um conceito de normalização em bancos de dados relacionais que estabelece as seguintes regras para a estrutura das tabelas:
+                <br>
+                <li>Os valores em uma coluna devem ser atômicos, ou seja, indivisíveis. Isso significa que uma coluna não deve conter múltiplos valores separados por vírgula, por exemplo. Caso contrário, esses valores devem ser divididos em colunas separadas.</li>
+                <br>   
+                <li>Cada coluna em uma tabela deve ter um nome único, para evitar ambiguidades e permitir identificar claramente cada dado.</li>
+                <br>
+                <li>A ordem das linhas e colunas não deve importar. Os bancos de dados relacionais trabalham com o conceito de conjuntos de dados, em que cada linha representa uma entidade única e cada coluna representa um atributo dessa entidade.</li>
+                <br>  
+                A Primeira Forma Normal (1FN) é um requisito básico para a estrutura de tabelas em bancos de dados relacionais. Ela ajuda a evitar a duplicação de dados e a garantir a integridade e a consistência dos dados armazenados nas tabelas. A partir da 1FN, é possível aplicar formas adicionais de normalização para melhorar a estrutura do banco de dados e otimizar o armazenamento e a recuperação dos dados.
+                <br><br><br>
+                </p>
+                    </div>
+                </div>
+
+                <p>Segunda Forma Normal - 2FN</p>
+                <div id="container01">
+                    <div id="textscrum">
+                <br>
+                <p>A Segunda Forma Normal (2FN) é um conceito de normalização em bancos de dados relacionais que se baseia na Primeira Forma Normal (1FN) e adiciona algumas regras adicionais para a estrutura das tabelas. A 2FN busca eliminar a redundância de dados relacionados a chaves parciais. Para uma tabela estar em 2FN, ela deve satisfazer os seguintes critérios:
+                    <br><br>
+                    <li>Estar em 1FN.</li>
+                    <li>Todos os atributos não chave da tabela devem depender completamente da chave primária da tabela.</li>
+                    <br>
+                    Em outras palavras, a 2FN requer que qualquer atributo que não faça parte da chave primária seja funcionalmente dependente da chave primária completa, e não apenas de uma parte dela.
+                </p>
+                <br><br><br>
+                    </div>
+                </div>
+
+                <p>Terceira Forma Normal - 3FN</p>
+                <div id="container01">
+                    <div id="textscrum">
+                <br>
+                <p>A Terceira Forma Normal (3FN) é um conceito de normalização em bancos de dados relacionais que se baseia na Primeira Forma Normal (1FN) e na Segunda Forma Normal (2FN). A 3FN visa eliminar a redundância de dados relacionados a dependências transitivas. Para uma tabela estar em 3FN, ela deve satisfazer os seguintes critérios:
+                    <br><br>
+                    <li>Estar em 2FN.</li>
+                    <li>Todos os atributos não chave da tabela devem depender apenas da chave primária da tabela e não de outros atributos não chave.</li>
+                    <br>
+                Em outras palavras, a 3FN requer que qualquer atributo não chave seja funcionalmente dependente apenas da chave primária e não de outros atributos não chave.
+                </p>
+                    </div>
+                </div>
+
+                
+
+                <h3 id="rob2" >PostgreSQL</h3>
+                <div id="container01">
+                    <div id="textscrum">
+                <p>O PostgreSQL é um Sistema de Gerenciamento de Banco de Dados Relacional de código aberto e altamente poderoso. Ele é conhecido por sua confiabilidade, integridade e recursos avançados. O PostgreSQL suporta a linguagem SQL (Structured Query Language) e é compatível com grande parte do padrão SQL:2011. Aqui estão algumas características e recursos importantes do PostgreSQL:
+                <br><br>   
+                <li>Modelagem de Dados: O PostgreSQL suporta a modelagem de dados relacional tradicional, permitindo a criação de tabelas, relacionamentos, chaves primárias, chaves estrangeiras e índices. Ele também oferece suporte a tipos de dados avançados, como arrays, JSON, geometria espacial e outros.</li>
+                <br><br>   
+                <li>Consultas Complexas: O PostgreSQL suporta consultas SQL avançadas, incluindo junções, subconsultas, agregações, ordenações e filtragens complexas. Ele também possui recursos poderosos, como CTEs (Common Table Expressions), funções definidas pelo usuário, janelas de análise (window functions) e consultas em texto completo.</li>
+                <br><br>   
+                <li>Extensibilidade: O PostgreSQL é altamente extensível, permitindo a criação de tipos de dados personalizados, funções definidas pelo usuário (UDFs), operadores personalizados e muito mais. Ele também suporta extensões adicionais, como o PostGIS para dados geoespaciais e o pgcrypto para criptografia.</li>
+                <br><br>   
+                <li>Confiabilidade e Durabilidade: O PostgreSQL é conhecido por sua confiabilidade e robustez. Ele utiliza um mecanismo de log de transações que garante a durabilidade dos dados, mesmo em caso de falhas de sistema. Além disso, possui recursos de recuperação de desastres, como pontos de verificação (checkpoints) e backups online.</li>
+                <br><br>    
+                <li>Escalabilidade e Desempenho: O PostgreSQL oferece recursos para lidar com grandes volumes de dados e cargas de trabalho intensivas. Ele suporta particionamento de tabelas, replicação síncrona e assíncrona, clustering e balanceamento de carga. Além disso, possui otimizador de consultas avançado que busca o melhor plano de execução para obter um desempenho otimizado.</li>
+                <br><br>    
+                <li>Segurança: O PostgreSQL oferece recursos abrangentes de segurança. Ele suporta autenticação e autorização flexíveis, criptografia de conexão, gerenciamento de privilégios granulares e auditoria de acesso. Além disso, possui recursos de controle de acesso a nível de coluna, permitindo restrições finas sobre quem pode ver ou modificar dados específicos.</li>
+                <br><br>    
+                O PostgreSQL é uma escolha popular para uma ampla variedade de aplicativos, desde pequenas aplicações web até grandes sistemas empresariais. Sua comunidade ativa de desenvolvedores e sua extensa documentação contribuem para sua adoção e evolução contínua.
+
+
+
+
+                </p>
+                    </div>
+                </div>
+
+
+            <h3 id="atv" >Atividades</h3>
+            <div id="container01">
+                <div id="textscrum">
+            <p id="texto0" >Nesse Projeto a sala inteira participou, tinhamos que pegar o banco de dados do titanic antigo e para o SQL.</p>
+            <div class="image-container">
+            <figure>
+                <img src="./img/titanic.png" width="600" alt="">
+            </figure>
+            </div>
+            <div id="transform">
+                <div id="atvred2">
+                    <p>O modelo de entidade e relacionamento do tema do meu squad.</p>
+                    <figure>
+                        <img src="./img/MER.png" width="450" alt="">
+                    </figure>
+                </div>
+            <div>
+                <p id="atvred3" >link para a atividade completa, esta localizada no SQUAD 4 </p><a href="">https://www.notion.so/Exerc-cios-Banco-de-Dados-f582c077dd82460a99b9082e55fe204a</a>
+                
+                <figure>
+                    <img id="arduino3" src="./img/ProjetoSquad.png" width="450" alt="">
+                </figure>
+            </div>
+        </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    
+    <footer>
+        <div id="footer-content">
+          <p id="footer-text">Todos os direitos reservados - Projetos ADS Senai</p>
+          <div id="social-media">
+            <figure>
+              <a href="https://github.com/ThiagoTav" target="_blank"><img id="gitImage" src="./img/GitHub.png" width="40" alt=""></a>
+              <a href="https://instagram.com/thiiago_tavaress?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><img id="insImage" src="./img/instagram.png" width="40" alt=""></a>
+              <a href="https://br.linkedin.com/in/thiago-tavares-silva-a0746a240?trk=public_profile_samename-profile" target="_blank"><img id="linImage" src="./img/linkedin.png" width="40" alt=""></a>
+            </figure>
+          </div>
+        </div>
+    </footer>
+
+    
+</body>
+<script src="./java.js"></script>
+</html>
